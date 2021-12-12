@@ -81,21 +81,57 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is the value of 2 + 2?',
+        question: 'Choose the correct option',
         answers: [
-            { text: '4', correct: true },
-            { text: '22', correct: false },
-            { text: '6', correct: false },
-            { text: '8', correct: false }
+            { text: 'apple', correct: true },
+            { text: 'aple', correct: false },
+            { text: 'appul', correct: false },
+            { text: 'apul', correct: false }
         ]
     },
     {
-        question: 'How many days are in two weeks?',
+        question: 'Do you speak English?',
         answers: [
-            { text: '7', correct: false },
-            { text: '12', correct: false },
-            { text: '14', correct: true },
-            { text: '30', correct: false }
+            { text: 'Yes, we do', correct: false },
+            { text: 'Yes, I do', correct: true },
+            { text: 'Yes, they do', correct: false },
+            { text: 'No, I do', correct: false }
+        ]
+    },
+    {
+        question: 'Choose the correct option',
+        answers: [
+            { text: 'Where are you from?', correct: true },
+            { text: 'What from are you?', correct: false },
+            { text: 'Where from are you?', correct: false },
+            { text: 'What are you from?', correct: false }
+        ]
+    },
+    {
+        question: 'Choose the odd one?',
+        answers: [
+            { text: 'dog', correct: false },
+            { text: 'cat', correct: false },
+            { text: 'monkey', correct: false },
+            { text: 'tree', correct: true }
+        ]
+    },
+    {
+        question: 'Choose the correct option',
+        answers: [
+            { text: 'He live on London', correct: false },
+            { text: 'He lives on London', correct: false },
+            { text: 'He lives in London', correct: true },
+            { text: 'He live in London', correct: false }
+        ]
+    },
+    {
+        question: 'Choose the correct option',
+        answers: [
+            { text: 'Yui has a big very car', correct: false },
+            { text: 'Yui car has a very big', correct: false },
+            { text: 'Yui has a very big car', correct: true },
+            { text: 'Yui has a car very big', correct: false }
         ]
     },
     {
@@ -117,12 +153,12 @@ const questions = [
         ]
     },
     {
-        question: 'What is 4 * 2?',
+        question: 'What colors are in the national flag of Japan?',
         answers: [
-            { text: '6', correct: false },
-            { text: '8', correct: true },
-            { text: '18', correct: false },
-            { text: '42', correct: false }
+            { text: 'blue and white', correct: false },
+            { text: 'white and red', correct: true },
+            { text: 'blue and red', correct: false },
+            { text: 'purple and orange', correct: false }
         ]
     }
 ]
