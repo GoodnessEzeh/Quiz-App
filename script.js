@@ -135,16 +135,25 @@ const questions = [
         ]
     },
     {
-        question: 'Your fathers brother is your?',
+        question: 'A baby lion is called?',
         answers: [
-            { text: 'Aunt', correct: false },
-            { text: 'Uncle', correct: true },
-            { text: 'Nephew', correct: false },
-            { text: 'Cousin', correct: false }
+            { text: 'Lioness', correct: false },
+            { text: 'Cub', correct: true },
+            { text: 'Puppy', correct: false },
+            { text: 'Tom', correct: false }
         ]
     },
     {
-        question: 'Your brothers daughter is your?',
+        question: 'Which of these is correctly spelt?',
+        answers: [
+            { text: 'Collegue', correct: false },
+            { text: 'Colleague', correct: true },
+            { text: 'Colegue', correct: false },
+            { text: 'Coleague', correct: false }
+        ]
+    },
+    {
+        question: "What is your brother's daughter called?",
         answers: [
             { text: 'uncle', correct: false },
             { text: 'nephew', correct: false },
