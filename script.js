@@ -108,7 +108,7 @@ const questions = [
         ]
     },
     {
-        question: 'Choose the odd one?',
+        question: 'Which is the the odd one?',
         answers: [
             { text: 'dog', correct: false },
             { text: 'cat', correct: false },
